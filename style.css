@@ -33,16 +33,31 @@ nav {
   padding: 10px 25px;
   /* gap: 25px; */
 }
+i:hover {
+
+  /* font-size: 5em; */
+  transform: scale(2, 2);
+  padding-top: 20px;
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  /* color: white; */
+  /* background-color: black; */
+}
 .icons {
   background-color: rgb(104, 167, 243);
   height: 30px;
-  width: 33.33vw;
+  width: 33.3vw;
   align-items: center;
   text-align: end;
 }
 .icons a i {
   color: black;
   text-decoration: none;
-  height: 30px;
+  height: 100px;
+  font-size: 1.9rem;
+  /* vertical-align: middle; */
   /* width: 40px; */
+}
+.fa-brands {
+  /* height: 60px; */
 }
